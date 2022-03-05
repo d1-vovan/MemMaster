@@ -8,3 +8,14 @@ C:\Users\ДНС\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.csproj.Gene
 C:\Users\ДНС\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.csproj.CoreCompileInputs.cache
 C:\Users\ДНС\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.exe
 C:\Users\ДНС\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.pdb
+C:\Users\User\source\repos\MemMaster\MemMaster\bin\Debug\MemMaster.exe.config
+C:\Users\User\source\repos\MemMaster\MemMaster\bin\Debug\MemMaster.exe
+C:\Users\User\source\repos\MemMaster\MemMaster\bin\Debug\MemMaster.pdb
+C:\Users\User\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.Properties.Resources.resources
+C:\Users\User\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.csproj.GenerateResource.cache
+C:\Users\User\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.exe
+C:\Users\User\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.pdb
+C:\Users\User\source\repos\MemMaster\MemMaster\obj\Debug\MemMaster.fMemMaster.resources
