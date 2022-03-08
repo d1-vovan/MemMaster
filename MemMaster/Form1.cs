@@ -112,11 +112,6 @@ namespace MemMaster
             return new_image;
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void tbYourWord_TextChanged(object sender, EventArgs e)
         {
             if (tbYourWord.Text.Length == 0)
@@ -149,8 +144,9 @@ namespace MemMaster
                 for (int i = 0; i < bitmaps.Count; i++)
                 {
                     int Xsteps_im = i * (image.Width / tbYourWord.Text.Length);
-                    int Xsteps_nu = i * (int)nudDistanceSeparatorElement.Value * 2;
-                    int Xstart = Xsteps_im + Xsteps_nu;
+                    int Xsteps_dse = i * (int)nudDistanceSeparatorElement.Value * 2;
+                    int Xsteps_svs = i * (int)nudSizeVerticalSeparator.Value;
+                    int Xstart = Xsteps_im + Xsteps_dse + Xsteps_svs;
                     grph.DrawImage(bitmaps[i], Xstart, 0);
 
                     // Рисуем вертикальный разграничитель
@@ -171,7 +167,7 @@ namespace MemMaster
 
                 // Рисуем горизонтальный отделитель
                 Point g_p1 = new Point(0, image.Height + 50);
-                Point g_p2 = new Point(new_image.Width - (int)nudDistanceSeparatorElement.Value - (int)nudSizeVerticalSeparator.Value, image.Height + 50);
+                Point g_p2 = new Point(new_image.Width, image.Height + 50);
                 grph.DrawLine(new Pen(Color.Black, (float)nudSizeHorizontalSeparator.Value), g_p1, g_p2);
 
                 // Вставляем новое изображение
